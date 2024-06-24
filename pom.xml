@@ -8,8 +8,7 @@
 		<version>2.7.17</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.fst</groupId>
-	<artifactId>MvcApplication</artifactId>
+	
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>MMV project for Spring Boot</description>
