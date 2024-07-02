@@ -1,5 +1,5 @@
 # On va Utiliser une image de base Java d'AdoptOpenJDK
-FROM eclipse-temurin:15-jdk
+FROM jenkins/openjdk
 
 # Définition du répertoire de travail
 WORKDIR /app
