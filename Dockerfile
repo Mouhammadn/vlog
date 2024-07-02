@@ -1,10 +1,10 @@
-# Utiliser une image de base Java
-FROM openjdk:15-jdk-alpine
+# On va Utiliser une image de base Java d'AdoptOpenJDK
+FROM openjdk:15-jdk-hotspot
 
-# Définir le répertoire de travail
+# Définition du répertoire de travail
 WORKDIR /app
 
-# Copier le fichier JAR généré par Maven
+# Copie du fichier JAR généré par Maven
 COPY target/myapp-*.jar /app/myapp.jar
 
 # Exposer le port de l'application
