@@ -1,5 +1,5 @@
 # On va Utiliser une image de base Java d'AdoptOpenJDK
-FROM openjdk:15-jdk-hotspot
+FROM eclipse-temurin:15-jdk
 
 # Définition du répertoire de travail
 WORKDIR /app
